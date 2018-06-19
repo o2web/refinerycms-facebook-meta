@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'refinerycms', '~> 3.0.0'
-  s.add_dependency 'seo_meta', '~> 2.0.0'
+  s.add_dependency 'refinerycms', '~> 4.0.0'
+  s.add_dependency 'seo_meta', '~> 3.0.0'
 end

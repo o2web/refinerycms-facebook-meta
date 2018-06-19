@@ -1,0 +1,17 @@
+fr:
+  facebook_meta:
+    form:
+      facebook: Messages facebook
+      og_type: Type de message
+      og_type_help: Le type de message indique à Facebook comment afficher le message (par défaut 'site web')
+      og_title: Titre
+      og_title_help: En option, remplacez le titre par défaut de message Facebook.
+      og_description: Le court texte Facebook pour remplacer la méta description par défaut
+      og_description_help: Ce message apparaît à côté de l'image de votre site Web
+      og_image: L'image que Facebook montrera
+      og_image_help: Sans image, Facebook sélectionnera une image à partir de la page Web
+
+  refinery:
+    plugins:
+      refinery_facebook_meta:
+        tab_name: Métas Facebook

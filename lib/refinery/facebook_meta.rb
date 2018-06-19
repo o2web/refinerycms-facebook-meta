@@ -1,5 +1,5 @@
 require 'refinerycms-core'
-require 'globalize'
+require 'mobility'
 
 module SeoMeta
   class << self
