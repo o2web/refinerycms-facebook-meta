@@ -24,3 +24,20 @@
   </span>
   <%= form.select :og_type, Refinery::FacebookMeta.config.og_types, include_blank: true %>
 </div>
+
+
+<div class='field'>
+  <span class='label_with_help'>
+    <%= form.label :og_title, t('og_title', scope: 'facebook_meta.form') %>
+    <%= refinery_help_tag t('og_title_help', scope: 'facebook_meta.form')%>
+  </span>
+  <%= form.text_field :og_title, :class => 'widest' %>
+</div>
+
+<div class='field'>
+  <span class='label_with_help'>
+    <%= form.label :og_description, t('og_description', scope: 'facebook_meta.form') %>
+    <%= refinery_help_tag t('og_description_help', scope: 'facebook_meta.form') %>
+  </span>
+  <%= form.text_area :og_description, :class => 'widest', :rows => 7 %>
+</div>
